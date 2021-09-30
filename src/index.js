@@ -1,21 +1,10 @@
 import ReactDom from "react-dom";
-import Primeiro from "./components/basicos/Primeiro"
-import ComParametro from "./components/basicos/ComParametro"
+import App from "./components/App"
 
 
 ReactDom.render(
 
-  <>
-
-  <Primeiro/>
-  <ComParametro
-    nome = "Anderson"
-    nota = "10"
-    status
-
-  />
-
-  </>
+  <App/>
 
   ,document.getElementById('root')
 )

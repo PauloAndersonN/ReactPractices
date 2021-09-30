@@ -2,20 +2,19 @@
 
 export default function ComParametro(props) {
 
-
-  const { nome, nota, status } = props
-
-
+const status = props.nota >= 2 ? 'aprovado' : 'reprovado'
+  
+  
   return (
 
     <div>
 
       <h1>
-        {nome}
+        {props.nome}
       </h1>
 
       <h1>
-        {nota}
+        {props.nota}
       </h1>
 
       <h1>
